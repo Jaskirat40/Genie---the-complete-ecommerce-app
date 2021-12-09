@@ -1,0 +1,27 @@
+[debug] [2021-11-23T18:41:39.273Z] ----------------------------------------------------------------------
+[debug] [2021-11-23T18:41:39.277Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\microsoft\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2021-11-23T18:41:39.278Z] CLI Version:   9.18.0
+[debug] [2021-11-23T18:41:39.278Z] Platform:      win32
+[debug] [2021-11-23T18:41:39.278Z] Node Version:  v14.17.6
+[debug] [2021-11-23T18:41:39.279Z] Time:          Wed Nov 24 2021 00:11:39 GMT+0530 (India Standard Time)
+[debug] [2021-11-23T18:41:39.279Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-23T18:41:39.282Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2021-11-23T18:41:39.359Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-23T18:41:39.359Z] > authorizing via signed-in user (jaskiratkhanna123@gmail.com)
+[debug] [2021-11-23T18:41:39.360Z] [iam] checking project clone-31175 for permissions ["firebase.projects.get"]
+[debug] [2021-11-23T18:41:39.361Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-11-23T18:41:39.361Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-23T18:41:39.573Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Tue, 23 Nov 2021 18:41:39 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-23T18:41:39.587Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/clone-31175:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2021-11-23T18:41:40.398Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2021-11-23T18:41:40.398Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2021-11-23T18:41:41.156Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 23 Nov 2021 18:41:41 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1341","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-23T18:41:41.159Z] >>> HTTP REQUEST GET http://localhost:4400/emulators  
+ 
+[debug] [2021-11-23T18:41:41.380Z] Error: connect ECONNREFUSED 127.0.0.1:4400
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[error] 
+[error] Error: Server Error. connect ECONNREFUSED 127.0.0.1:4400

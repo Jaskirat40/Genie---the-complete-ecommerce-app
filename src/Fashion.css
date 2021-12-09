@@ -1,0 +1,27 @@
+.Fashion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Fashion__image{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    mask-image: linear-gradient(to top, transparent 5%, black 15%);
+}
+.Fashion1{
+    font-family: Algerian;
+    /* font-weight: 600; */
+    font-size: 40px;
+    background-color: rgb(138, 36, 62);
+    color: black;
+    width: 100%;
+    text-align: center;
+}
+.Fashion__row1{
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: -70px;
+}

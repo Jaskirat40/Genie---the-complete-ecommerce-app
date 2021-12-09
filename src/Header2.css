@@ -1,0 +1,40 @@
+.header2 {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: darkgray;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.header2 > h3 {
+  color: black;
+  margin-left: 40px;
+}
+.header2__nav__link {
+  text-decoration: none;
+  color: black;
+}
+.header2__nav {
+  display: flex;
+  margin-left: 40px;
+  width: 80%;
+  justify-content: space-evenly;
+}
+.header2__nav__link > span {
+  width: 60px;
+  text-align: center;
+  color: black;
+  font-size: 19px;
+  font-weight: 400;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.header2__nav__link > span:hover {
+  transition: 0.5s;
+  border: 3px solid;
+  border-radius: 10px;
+  border-top-style: groove;
+  border-bottom-style: groove;
+  border-color: rgb(255, 255, 255);
+  box-shadow: 0 0 20px 2px black;
+}

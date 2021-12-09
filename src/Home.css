@@ -1,0 +1,203 @@
+.home {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+}
+.home__row1 {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.home__row2{
+  display: flex;
+  z-index: 1;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.windows11{
+  height: 95%;
+  width: 95%;
+}
+.book{
+  height: 95%;
+  width: 95%;
+}
+.babystore{
+  height: 95%;
+  width: 95%;
+}
+.ultragear{
+  height: 95%;
+  width: 95%;
+}
+
+.home__row3{
+  display: flex;
+  margin-left: 15px;
+}
+.category1 {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(1, 55, 156);
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 35px;
+}
+.category2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(134, 30, 204);
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 35px;
+  margin-top: 10px;
+}
+.furniture{
+  margin-top: -100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(87, 69, 46);
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 35px;
+  margin-top: 10px;
+}
+.Toysnbaby{
+  margin-top: -100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(180, 85, 138);
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 35px;
+  margin-top: 10px;
+}
+.books{
+  margin-top: -100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(31, 97, 72);
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 35px;
+  margin-top: 10px;
+}
+.category__link{
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: whitesmoke;
+}
+.rows {
+  margin-top: -20%;
+}
+.home__logo{
+  padding-right: 15%;
+  padding-left: 15%;
+  width: 7%;
+}
+.genie__text{
+  margin-left: 19%;
+  font-size: 60px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(51, 131, 236);
+}
+.makeawish__text{
+  margin-left: 3%;
+  font-size: 60px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(51, 131, 236);
+}
+.about__website{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+  width: 100%;
+  height: 150px;
+  
+}
+.home__image {
+  width: 100%;
+  z-index: -1;
+  mask-image: linear-gradient(to top, transparent 5%, black 45%);
+}
+.home__image1{
+  mask-image: linear-gradient(to top, transparent 0%, black 20%);
+}
+.home__image2{
+  mask-image: linear-gradient(to top, transparent 0%, black 40%);
+}
+.home__container {
+  overflow: hidden;
+  z-index: -1;
+}
+.home__container > figure > img {
+  width: 20%;
+  float: left;
+  z-index: -1;
+}
+.home__container > figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 40s home__container infinite;
+  z-index: -1;
+}
+
+@keyframes home__container {
+  0% {
+    left: 0%;
+  }
+  15% {
+    left: 0%;
+  }
+  20% {
+    left: -100%;
+  }
+  35% {
+    left: -100%;
+  }
+  40% {
+    left: -200%;
+  }
+  55% {
+    left: -200%;
+  }
+  60% {
+    left: -300%;
+  }
+  75% {
+    left: -300%;
+  }
+  80% {
+    left: -400%;
+  }
+  95% {
+    left: -400%;
+  }
+  100% {
+    left: 0%;
+  }
+
+}

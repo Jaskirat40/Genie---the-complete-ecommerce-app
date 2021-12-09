@@ -1,0 +1,115 @@
+.LG__container{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.LG__status{
+    color: green;
+    font-weight: 500;
+}
+.LG__desc{
+    margin-top: 10px;
+}
+.LG__desc>li{
+    margin-bottom: 10px;
+    width: 80%;
+    font-size: 18px;
+}
+.LG__ad__image{
+    margin-top: 10px;
+    margin-left: 30%;
+    height: 50px;
+    width: 700px;
+}
+.LG__details{
+    margin-top: 100px;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    width:75%;
+}
+.LG__details1{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.LG__FTM{
+    color:chocolate;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.LG__details1>img{
+    margin-left:100px;
+    width:90%;
+    height:90%;
+}
+.LG__Product__details{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.LG__Image{
+    max-height: 500px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+.LG__title{
+    font-weight: 700;
+}
+.LG__addToCart{
+    display:flex;
+    flex-direction: column;    
+    border: 3px groove;
+    border-radius: 15px;
+    height: 127px;
+    width: 650px;
+    margin-right: -260px;
+}
+.LG__addToCart>span{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.LG__Button{
+    margin-left:10px;
+    width: 91%;
+    background:#f0c14b;
+    border: 1px solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: #a88734#9c7e31#846a29;
+    border-radius: 15px;
+    color: #111;
+    height: 40px;
+}
+.LG__Button:hover{
+    transform :scale(1.1);
+    z-index: 1;
+    transition: 0.8s;
+    box-shadow: 0 0  20px 2px black;
+}
+.LG__addToCart__secure{
+    margin-left: 10px;
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+}
+.LG__image1__text1{
+    color:#fff;
+    width: 35%;
+    margin-top: -300px;
+    margin-bottom: 252px;
+    margin-left: 170px;
+    font-size: 36px;
+    font-weight: bold;
+}
+.LG__image1__text2{
+    color:#fff;
+    width: 35%;
+    margin-top: -230px;
+    margin-bottom: 143px;
+    margin-left: 170px;
+    font-size: 16px;
+}
