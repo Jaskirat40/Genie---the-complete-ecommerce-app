@@ -1,6 +1,12 @@
 # Genie - the complete ecommerce solution
 
-the project lets customers buy products online directly from the manufacturer, user can keep record of his orders (firestore database) and the payments are done through Stripe platform
+- Genie is an e-commerce website designed to provide solution to various e-commerce problems. 
+- It is a website through which we can sell various products and customers can buy products electronically.
+- This project provides various functionalities for the users, for example to surf different products, add products of interest to wish-list, buy products online 
+  and pay from online portal as well.   
+- It is a project based on Business to Consumer (B2C) model of E-commerce. It refers to the process of selling products and services directly between a business 
+  and consumers who are the end-users of its products or services.
+
 
 ## `Tech stack used in the project`
 
