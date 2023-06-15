@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Genie - the complete ecommerce solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+the project lets customers buy products online directly from the manufacturer, user can keep record of his orders (firestore database) and the payments are done through Stripe platform
 
-## Available Scripts
+## `Tech stack used in the project`
 
-In the project directory, you can run:
+React JS • Node JS • Mongo DB • Google Firebase • Google Firestore • Stripe
 
-### `npm start`
+## `Data flow diagram`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<img src="https://github.com/Jaskirat40/Genie---the-complete-ecommerce-app/assets/30535167/77b5bb8c-5a06-44ae-bf96-8506af201bdb" width="800"/>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Pages in the application
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `1. Homepage`
 
-### `npm run build`
+<img src="https://github.com/Jaskirat40/Genie---the-complete-ecommerce-app/assets/30535167/70d5c2b0-c0ed-402e-9f0b-569af6378fa5" width="800"/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `2. Sign-in page`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img src="https://github.com/Jaskirat40/Genie---the-complete-ecommerce-app/assets/30535167/caa2d204-b184-4069-81d0-477cca0fae09" width="800"/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `3. Products page`
+<img src="https://github.com/Jaskirat40/Genie---the-complete-ecommerce-app/assets/30535167/feaa459a-d517-493a-a667-56cff858b379" width="800"/>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<img src="https://github.com/Jaskirat40/Genie---the-complete-ecommerce-app/assets/30535167/2bc4f7f8-71d8-4711-a063-da2d4aed10b1" width="800"/>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<img src="https://github.com/Jaskirat40/Genie---the-complete-ecommerce-app/assets/30535167/9f16b211-d3a8-4935-ae44-465332be970d" width="800"/>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### `4. Shopping cart page`
 
-## Learn More
+<img src="https://github.com/Jaskirat40/Genie---the-complete-ecommerce-app/assets/30535167/2f906672-b340-41b3-bdd0-c3512f40df46" width="800"/>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### `5. Checkout page`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img src="https://github.com/Jaskirat40/Genie---the-complete-ecommerce-app/assets/30535167/559e0972-780e-41c6-890a-12eca2b33ec9" width="800"/>
 
-### Code Splitting
+<img src="https://github.com/Jaskirat40/Genie---the-complete-ecommerce-app/assets/30535167/eac22265-0ba7-4fbc-87d2-f5821559a78e" width="800"/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### `6. Orders page`
 
-### Analyzing the Bundle Size
+<img src="https://github.com/Jaskirat40/Genie---the-complete-ecommerce-app/assets/30535167/5b81f572-fd08-4170-8f87-a31ee6ccabcf" width="800"/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
